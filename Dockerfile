@@ -2,12 +2,14 @@ FROM node:20
 
 WORKDIR /app
 
-COPY package*.json ./
+RUN corepack enable
 
-RUN npm install
+COPY package.json pnpm-lock.yaml ./
+
+RUN pnpm install --frozen-lockfile
 
 COPY . .
 
 EXPOSE 8080
 
-CMD ["npm", "start"]
+CMD ["pnpm","start"]
