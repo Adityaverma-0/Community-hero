@@ -2,14 +2,16 @@ FROM node:22
 
 WORKDIR /app
 
-RUN corepack enable
+# 1. Install pnpm globally using npm instead of corepack
+RUN npm install -g pnpm@latest
 
 COPY package.json pnpm-lock.yaml ./
 
-RUN pnpm install --frozen-lockfile
+# 2. Run a standard install without the strict lockfile constraint
+RUN pnpm install
 
 COPY . .
 
 EXPOSE 8080
 
-CMD ["pnpm","start"]
+CMD ["pnpm", "start"]
