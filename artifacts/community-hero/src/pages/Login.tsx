@@ -96,30 +96,6 @@ export default function Login() {
                   {isLoading ? "Signing in…" : "Sign In"}
                 </Button>
               </form>
-
-              <div className="mt-6 pt-4 border-t border-border">
-                <p className="text-xs text-muted-foreground mb-2 font-medium">Demo credentials</p>
-                <div className="grid grid-cols-1 gap-2 text-xs text-muted-foreground">
-                  <div className="flex items-center gap-2 bg-muted/50 rounded p-2">
-                    <Shield className="h-3.5 w-3.5 text-primary" />
-                    <div>
-                      <span className="font-medium text-foreground">Admin:</span> admin@cityhero.gov / admin123
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2 bg-muted/50 rounded p-2">
-                    <Briefcase className="h-3.5 w-3.5 text-blue-400" />
-                    <div>
-                      <span className="font-medium text-foreground">Officer:</span> ramesh@cityhero.gov / officer123
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2 bg-muted/50 rounded p-2">
-                    <User className="h-3.5 w-3.5 text-green-400" />
-                    <div>
-                      <span className="font-medium text-foreground">Citizen:</span> Register a new account
-                    </div>
-                  </div>
-                </div>
-              </div>
             </TabsContent>
 
             <TabsContent value="register">
