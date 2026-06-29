@@ -45,10 +45,6 @@ export function CityMapSection() {
           <h2 className="text-3xl lg:text-4xl font-bold font-['Plus_Jakarta_Sans'] mb-4 text-white">
             Live Incident Map
           </h2>
-          <p className="text-white/60 max-w-2xl mx-auto font-['Inter']">
-            Geospatial intelligence that tracks every reported issue in real-time, helping
-            dispatchers route the closest available workers.
-          </p>
         </div>
 
         <div className="relative w-full h-[600px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
