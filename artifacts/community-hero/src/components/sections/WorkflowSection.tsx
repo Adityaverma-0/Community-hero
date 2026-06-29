@@ -137,28 +137,6 @@ export function WorkflowSection() {
             ))}
           </div>
         </div>
-
-        {/* Bottom stat bar */}
-        <motion.div
-          className="mt-24 grid grid-cols-3 gap-6 border-t border-white/5 pt-12"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.4 }}
-        >
-          {[
-            { value: "< 2 min", label: "Average AI triage time" },
-            { value: "96%", label: "Citizen satisfaction rate" },
-            { value: "3.4 days", label: "Average resolution time" },
-          ].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <p className="text-3xl lg:text-4xl font-extrabold text-white mb-1 font-['Plus_Jakarta_Sans']">
-                {stat.value}
-              </p>
-              <p className="text-white/40 text-sm font-['Inter']">{stat.label}</p>
-            </div>
-          ))}
-        </motion.div>
       </div>
     </section>
   );
