@@ -29,7 +29,6 @@ export function SmartCommunityGrid() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold font-['Plus_Jakarta_Sans'] mb-4 text-white">City Health Matrix</h2>
-            <p className="text-white/60 max-w-xl font-['Inter']">Real-time monitoring across 8 critical infrastructure domains, powered by IoT sensors and citizen reporting.</p>
           </div>
           <div className="mt-6 md:mt-0 text-right">
             <div className="text-sm text-white/50 mb-1 font-['Space_Grotesk']">System Status</div>
