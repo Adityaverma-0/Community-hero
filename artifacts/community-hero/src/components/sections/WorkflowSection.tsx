@@ -79,10 +79,6 @@ export function WorkflowSection() {
             Intelligent Issue<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Resolution</span>
           </h2>
-          <p className="text-white/50 max-w-2xl mx-auto text-lg font-['Inter'] leading-relaxed">
-            From the moment a citizen reports an issue, our AI orchestrates the entire
-            resolution process — with zero human bottleneck.
-          </p>
         </motion.div>
 
         {/* Steps grid */}
