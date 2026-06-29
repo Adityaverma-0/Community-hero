@@ -53,6 +53,10 @@ export default defineConfig({
     },
     dedupe: ["react", "react-dom"],
   },
+  optimizeDeps: {
+    dedupe: ["react", "react-dom"],
+    include: ["leaflet", "react-leaflet"],
+  },
   root: path.resolve(import.meta.dirname),
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
