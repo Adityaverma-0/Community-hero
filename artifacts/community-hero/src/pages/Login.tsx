@@ -69,7 +69,7 @@ export default function Login() {
           <CardTitle>Welcome back</CardTitle>
           <CardDescription>Sign in to your account or create a new one</CardDescription>
         </CardHeader>
-        <CardContent>
+        <CardContent className="p-6 pt-0 bg-[#ffffff00]">
           {error && (
             <div className="mb-4 flex items-center gap-2 text-sm text-destructive bg-destructive/10 border border-destructive/20 rounded-lg px-3 py-2">
               <AlertCircle className="h-4 w-4 flex-shrink-0" />
