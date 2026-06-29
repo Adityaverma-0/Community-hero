@@ -33,7 +33,6 @@ export function AnalyticsSection() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-12">
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold font-['Plus_Jakarta_Sans'] mb-4 text-white">Command Center Analytics</h2>
-            <p className="text-white/60 max-w-xl font-['Inter']">Deep dive into operational metrics. Make data-driven decisions to allocate resources efficiently.</p>
           </div>
           <div className="flex gap-4 mt-6 md:mt-0">
             <select className="bg-background border border-white/10 text-white text-sm rounded-lg px-4 py-2 outline-none focus:border-primary">
