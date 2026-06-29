@@ -61,9 +61,6 @@ export function AIDetectionSection() {
               Enterprise Vision <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Intelligence</span>
             </h2>
             
-            <p className="text-white/60 mb-8 font-['Inter'] text-lg">
-              Our computer vision models automatically classify citizen uploads, detect severity, and instantly format a work order for the correct department.
-            </p>
 
             <div className="bg-card border border-white/10 rounded-2xl p-6 shadow-2xl space-y-6">
               <div className="flex items-center justify-between border-b border-white/5 pb-4">
