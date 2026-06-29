@@ -27,13 +27,13 @@ export function CityMapSection() {
           border: none !important;
           box-shadow: none !important;
           padding: 0 !important;
-          color: #ffffff;
+          color: #111827;
           font-size: 11px;
           font-weight: 700;
           letter-spacing: 0.05em;
           font-family: 'Inter', sans-serif;
           white-space: nowrap;
-          text-shadow: 0 1px 3px rgba(0,0,0,0.9), 0 0 6px rgba(0,0,0,0.7);
+          text-shadow: 0 1px 2px rgba(255,255,255,0.8);
         }
         .incident-label::before { display: none !important; }
         .leaflet-tooltip-left.incident-label::before,
@@ -60,7 +60,7 @@ export function CityMapSection() {
             zoomControl={true}
           >
             <TileLayer
-              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+              url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
               attribution='&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
               subdomains="abcd"
               maxZoom={19}
