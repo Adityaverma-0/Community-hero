@@ -183,10 +183,6 @@ export function HeroSection({ onReportClick }: HeroSectionProps) {
             <span className="text-primary">Resolve.</span>
           </h1>
 
-          <p className="text-white/55 text-sm leading-relaxed mb-8 max-w-sm">
-            AI automatically triages civic issues, dispatches workers,
-            and verifies resolution in real time.
-          </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-3">
             <Button
