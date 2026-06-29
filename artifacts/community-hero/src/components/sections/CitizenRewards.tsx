@@ -16,7 +16,7 @@ const leaders = [
 
 export function CitizenRewards() {
   return (
-    <section className="py-24 bg-card">
+    <section className="py-24 bg-[#f0f0f53d]">
       <div className="container mx-auto px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold font-['Plus_Jakarta_Sans'] mb-4 text-white">Gamified Civic Engagement</h2>

@@ -24,8 +24,7 @@ const statusConfig = {
 export function SmartCommunityGrid() {
   return (
     <section id="departments" className="py-24 bg-card relative">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-background to-background" />
-      
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-background to-background bg-[#f0f0f53d]" />
       <div className="container mx-auto px-8 relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>

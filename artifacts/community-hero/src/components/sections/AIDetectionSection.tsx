@@ -5,11 +5,10 @@ import { Button } from "@/components/ui/button";
 
 export function AIDetectionSection() {
   return (
-    <section className="py-24 bg-background relative overflow-hidden">
+    <section className="py-24 relative overflow-hidden bg-[#f0f0f53d]">
       {/* Decorative AI nodes */}
       <div className="absolute top-20 right-20 w-64 h-64 bg-primary/10 rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute bottom-20 left-20 w-64 h-64 bg-accent/10 rounded-full blur-[100px] pointer-events-none" />
-
       <div className="container mx-auto px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           

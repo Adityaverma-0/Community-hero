@@ -28,7 +28,7 @@ const efficiencyData = [
 
 export function AnalyticsSection() {
   return (
-    <section id="analytics" className="py-24 bg-card border-t border-b border-white/5">
+    <section id="analytics" className="py-24 border-t border-b border-white/5 bg-[#f0f0f53d]">
       <div className="container mx-auto px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12">
           <div>

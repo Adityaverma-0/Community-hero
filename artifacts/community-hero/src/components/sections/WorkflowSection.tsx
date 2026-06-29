@@ -54,7 +54,7 @@ export function WorkflowSection() {
     <section
       id="workflow"
       ref={sectionRef}
-      className="min-h-screen py-32 relative overflow-hidden flex flex-col justify-center bg-[#05081500]"
+      className="min-h-screen py-32 relative overflow-hidden flex flex-col justify-center bg-[#f0f0f53d]"
     >
       {/* Ambient background blobs */}
       <div className="absolute inset-0 pointer-events-none">
