@@ -55,7 +55,7 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen flex flex-col items-center justify-center p-4" style={{ backgroundImage: 'url(/images/login-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="mb-8 text-center">
         <div className="flex items-center justify-center gap-2 mb-2">
           <Shield className="h-8 w-8 text-primary" />
