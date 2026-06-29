@@ -54,14 +54,13 @@ export function WorkflowSection() {
     <section
       id="workflow"
       ref={sectionRef}
-      className="min-h-screen py-32 bg-background relative overflow-hidden flex flex-col justify-center"
+      className="min-h-screen py-32 relative overflow-hidden flex flex-col justify-center bg-[#05081500]"
     >
       {/* Ambient background blobs */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px]" />
         <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-accent/5 rounded-full blur-[100px]" />
       </div>
-
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         {/* Header */}
         <motion.div
