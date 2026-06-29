@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "MW477arEBmnyKsjce4mID"
+uri = "file://community-hero-source.zip"
+type = "unspecified"
+title = "Community Hero — Full Source Code"
