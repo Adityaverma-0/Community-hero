@@ -13,6 +13,11 @@ RUN pnpm install --no-frozen-lockfile
 
 ENV PORT=8080
 RUN pnpm run build
+# THE FIX: Tell pnpm to strictly build the api-server (and its dependencies)
+# The "..." at the end tells it to include needed database packages but skip the sandbox!
+ENV PORT=8080
+ENV BASE_PATH=/
+RUN pnpm run build
 
 EXPOSE 8080
 
