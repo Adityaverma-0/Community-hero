@@ -8,11 +8,10 @@ RUN npm install -g pnpm@9
 # 2. Copy the workspace files
 COPY . .
 
-# 3. Install dependencies across the workspace
+# (Other stuff above...)
 RUN pnpm install --no-frozen-lockfile
 
-# THE FIX: Tell pnpm to strictly build the api-server (and its dependencies)
-# The "..." at the end tells it to include needed database packages but skip the sandbox!
+ENV PORT=8080
 RUN pnpm run build
 
 EXPOSE 8080
