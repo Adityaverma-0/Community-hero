@@ -13,7 +13,7 @@ RUN pnpm install --no-frozen-lockfile
 
 # THE FIX: Tell pnpm to strictly build the api-server (and its dependencies)
 # The "..." at the end tells it to include needed database packages but skip the sandbox!
-RUN pnpm --filter "@workspace/api-server..." run build
+RUN pnpm run build
 
 EXPOSE 8080
 
